@@ -1,0 +1,9 @@
+package CircleLinkedList;
+
+public interface CustomGradCal {//ÃÑÁ¡°ú Æò±Õ 
+
+	public int getTotal();
+	public void setTotal(int total);
+	public float getAvg();
+	public void setAvg(float avg);
+}
