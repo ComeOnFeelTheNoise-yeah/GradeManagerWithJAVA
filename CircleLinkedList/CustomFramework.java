@@ -16,9 +16,9 @@ public class CustomFramework extends CustomCircleLinkedList<Object>{
 	}
 
 	public void addLinkedList(SetInformation sif,CustomCircleLinkedList<Object> linkedList,int Index) {
-		if(Index!=linkedList.size()) {//µÚ¿¡ »ğÀÔÇÒ °æ¿ì
+		if(Index!=linkedList.size()) {//ë’¤ì— ì‚½ì…í•  ê²½ìš°
 			linkedList.append(sif);;
-		}else {//0ÀÏ‹š¿Í Áß°£¿¡ »ğÀÔÇÒ °æ¿ì
+		}else {//0ì¼ë–„ì™€ ì¤‘ê°„ì— ì‚½ì…í•  ê²½ìš°
 			linkedList.add(Index,(Object)sif);
 		}
 		
@@ -29,11 +29,11 @@ public class CustomFramework extends CustomCircleLinkedList<Object>{
 		linkedList.removeStudent(name);
 	}
 	
-	// CustomFramewortÀÇ »èÁ¦ ¸Ş¼Òµå
+	// CustomFramewortì˜ ì‚­ì œ ë©”ì†Œë“œ
 	public boolean linkedListRemover(int delIndex) {
 	    if (delIndex >= 0 && delIndex < getLinkedList().size()) {
 	        linkedList.remove(delIndex);
-	        // »èÁ¦ ÈÄ, ÀÎµ¦½º°¡ ¼öÁ¤µÈ °æ¿ì true ¹İÈ¯
+	        // ì‚­ì œ í›„, ì¸ë±ìŠ¤ê°€ ìˆ˜ì •ëœ ê²½ìš° true ë°˜í™˜
 	        return true;
 	    }
 	    return false;
