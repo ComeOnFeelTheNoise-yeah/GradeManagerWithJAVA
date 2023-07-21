@@ -4,13 +4,13 @@ import CircleLinkedList.SetInfo.SetInformation;
 
 interface DMLFramework{
 	
-	//°Ë»ö
+	//ê²€ìƒ‰
 	void select(SetInformation sif, int btn);
 	void selectAll(SetInformation sif);
 	
-	SetInfo insert(SetInformation sif);//µî·Ï
-	void updata(SetInformation sif);//¼öÁ¤
-	void delete(SetInformation sif);//»èÁ¦
+	SetInfo insert(SetInformation sif);//ë“±ë¡
+	void updata(SetInformation sif);//ìˆ˜ì •
+	void delete(SetInformation sif);//ì‚­ì œ
 
 	
 	
