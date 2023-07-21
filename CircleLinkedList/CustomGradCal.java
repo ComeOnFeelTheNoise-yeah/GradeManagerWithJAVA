@@ -1,6 +1,6 @@
 package CircleLinkedList;
 
-public interface CustomGradCal {//ÃÑÁ¡°ú Æò±Õ 
+public interface CustomGradCal {//ì´ì ê³¼ í‰ê·  
 
 	public int getTotal();
 	public void setTotal(int total);
